@@ -144,3 +144,4 @@ Caused by: java.lang.ClassNotFoundException: com.loohp.interactionvisualizer.nms
 [21:42:21] [User Authenticator #0/INFO]: UUID of player Sam_mtzrss is dfcd9200-0591-34f3-ba71-cfcd08c66845
 [21:42:22] [Server thread/INFO]: Sam_mtzrss joined the game
 [21:42:22] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:45920] logged in with entity id 12 at ([world_nether]71.13186543099556, 61.0, 236.624801870572)
+[22:03:19] [Server thread/INFO]: Sam_mtzrss has made the advancement [A Terrible Fortress]
