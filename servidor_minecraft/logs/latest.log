@@ -1,468 +1,146 @@
-[00:50:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[00:50:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) for Minecraft 1.21.6
-[00:50:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:50:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[00:50:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Geyser-Spigot (2.7.2-SNAPSHOT), ViaVersion (5.4.1-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[00:50:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:50:41] [ServerMain/INFO]: Loaded 1407 recipes
-[00:50:41] [ServerMain/INFO]: Loaded 1520 advancements
-[00:50:42] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[00:50:42] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 571.1ms
-[00:50:42] [Server thread/INFO]: Starting minecraft server version 1.21.6
-[00:50:42] [Server thread/INFO]: Loading properties
-[00:50:42] [Server thread/INFO]: This server is running Paper version 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) (Implementing API version 1.21.6-R0.1-SNAPSHOT)
-[00:50:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[00:50:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:50:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:50:43] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[00:50:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[00:50:44] [Server thread/INFO]: Default game type: SURVIVAL
-[00:50:44] [Server thread/INFO]: Generating keypair
-[00:50:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:50:44] [Server thread/INFO]: Using epoll channel type
-[00:50:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:50:44] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:50:45] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[00:50:46] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[00:50:46] [Server thread/INFO]: [floodgate] Took 1,470ms to boot Floodgate
-[00:50:46] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1-SNAPSHOT
-[00:50:46] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[00:50:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:50:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:50:48] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.2-SNAPSHOT
-[00:50:49] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[00:50:49] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[00:50:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:50:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:50:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:50:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:50:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:50:49] [Server thread/INFO]: Preparing level "world"
-[00:50:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:50:51] [Server thread/INFO]: Preparing spawn area: 0%
-[00:50:51] [Server thread/INFO]: Preparing spawn area: 0%
-[00:50:51] [Server thread/INFO]: Preparing spawn area: 2%
-[00:50:52] [Server thread/INFO]: Preparing spawn area: 18%
-[00:50:52] [Server thread/INFO]: Time elapsed: 1959 ms
-[00:50:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:50:52] [Server thread/INFO]: Preparing spawn area: 0%
-[00:50:52] [Server thread/INFO]: Preparing spawn area: 48%
-[00:50:52] [Server thread/INFO]: Time elapsed: 524 ms
-[00:50:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:50:52] [Server thread/INFO]: Preparing spawn area: 0%
-[00:50:52] [Server thread/INFO]: Time elapsed: 168 ms
-[00:50:52] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[00:50:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1-SNAPSHOT
-[00:50:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.6 (771)
-[00:50:53] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[00:50:53] [Server thread/WARN]: [ViaVersion] ViaVersion only supports newer client versions. Use ViaBackwards to allow older versions (ViaRewind for 1.7/1.8) to join.
-[00:50:53] [Server thread/WARN]: [ViaVersion] Get setup help at https://viaversion.com/setup or download ViaBackwards/ViaRewind directly at https://ci.viaversion.com/
-[00:50:53] [Server thread/WARN]: [ViaVersion] Need more help? Join our Discord at https://viaversion.com/discord
-[00:50:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.2-SNAPSHOT
-[00:50:54] [Server thread/INFO]: [spark] Starting background profiler...
-[00:50:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:50:54] [Server thread/INFO]: [Geyser-Spigot] 
-[00:50:54] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.2-b862 (git-master-00ceaa9)
-[00:50:54] [Server thread/INFO]: [Geyser-Spigot] 
-[00:50:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[00:51:00] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[00:51:00] [Server thread/INFO]: [Geyser-Spigot] Done (6.001s)! Run /geyser help for help!
-[00:51:01] [Server thread/INFO]: Done preparing level "world" (11.491s)
-[00:51:01] [Server thread/INFO]: Running delayed init tasks
-[00:51:01] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:51:01] [Server thread/WARN]: [Geyser-Spigot] You are using an outdated version of ViaVersion; please download the newest version from https://ci.viaversion.com/job/ViaVersion/
-[00:51:01] [Server thread/INFO]: Done (30.207s)! For help, type "help"
-[00:51:01] [User Authenticator #0/INFO]: UUID of player yaizi_ta is d15d8200-776c-32c7-affe-c93c97071f63
-[00:51:01] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[00:51:02] [Server thread/INFO]: yaizi_ta joined the game
-[00:51:02] [Server thread/INFO]: yaizi_ta[/127.0.0.1:59934] logged in with entity id 13 at ([world]-155.6214301696003, -36.0, 234.30000001192093)
-[00:51:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d53c9078-f7f5-4b71-972f-7c464dc69eb4, mapped to Axolotl['Axolotl'/111, uuid='d53c9078-f7f5-4b71-972f-7c464dc69eb4', l='ServerLevel[world]', x=-19.28, y=17.35, z=217.75, cpos=[-2, 13], tl=0, v=true], can't add Axolotl['Axolotl'/147, uuid='d53c9078-f7f5-4b71-972f-7c464dc69eb4', l='ServerLevel[world]', x=-20.63, y=13.92, z=206.63, cpos=[-2, 12], tl=0, v=false]
-[00:51:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7426e476-0d1e-49b5-a95b-6a4354c206a4, mapped to Bat['Bat'/91, uuid='7426e476-0d1e-49b5-a95b-6a4354c206a4', l='ServerLevel[world]', x=-48.55, y=-27.57, z=270.77, cpos=[-4, 16], tl=0, v=true], can't add Bat['Bat'/153, uuid='7426e476-0d1e-49b5-a95b-6a4354c206a4', l='ServerLevel[world]', x=-47.25, y=-26.89, z=275.75, cpos=[-3, 17], tl=0, v=false]
-[00:51:05] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4bf73300-16cd-41b6-ae43-9d344b6eaa5a, mapped to Bat['Bat'/159, uuid='4bf73300-16cd-41b6-ae43-9d344b6eaa5a', l='ServerLevel[world]', x=-57.30, y=-2.97, z=303.22, cpos=[-4, 18], tl=0, v=true], can't add Bat['Bat'/187, uuid='4bf73300-16cd-41b6-ae43-9d344b6eaa5a', l='ServerLevel[world]', x=-54.25, y=-2.72, z=304.75, cpos=[-4, 19], tl=0, v=false]
-[00:51:09] [User Authenticator #0/INFO]: UUID of player Sam_mtzrss is dfcd9200-0591-34f3-ba71-cfcd08c66845
-[00:51:09] [Server thread/INFO]: Sam_mtzrss joined the game
-[00:51:09] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:38274] logged in with entity id 281 at ([world]-137.41124815128563, -31.99866402088785, 223.39005299231786)
-[00:51:22] [User Authenticator #0/INFO]: UUID of player osonerd is c7aa2660-ff0e-3035-bdeb-a3a94002eb66
-[00:51:23] [Server thread/INFO]: osonerd joined the game
-[00:51:23] [Server thread/INFO]: osonerd[/127.0.0.1:59628] logged in with entity id 305 at ([world]-228.6137370241455, 108.0, 215.2694554179568)
-[00:51:35] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> me conecte primero les gane
-[00:51:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Sam_mtzrss> JAJAJAJ
-[00:52:00] [Async Chat Thread - #0/INFO]: [Not Secure] <osonerd> samuel sigma
-[00:52:35] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Creative Mode]
-[00:52:39] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Survival Mode]
-[00:52:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Sam_mtzrss> ALA
-[00:53:00] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> amigo que pr
-[00:53:01] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> o
-[00:53:07] [Server thread/INFO]: Sam_mtzrss has made the advancement [Diamonds!]
-[00:53:25] [Server thread/INFO]: yaizi_ta has made the advancement [Diamonds!]
-[00:53:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Sam_mtzrss> deseguro tu los encontraste primero
-[00:54:01] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> noamigo
-[00:54:04] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> maldito
-[00:54:06] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> pq mepegas
-[00:54:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Sam_mtzrss> por maldita
-[00:54:19] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> te voy a matar
-[00:55:11] [Server thread/INFO]: Sam_mtzrss issued server command: /difficulty
-[00:55:14] [Async Chat Thread - #0/INFO]: [Not Secure] <Sam_mtzrss> e no mames
-[00:55:18] [Async Chat Thread - #0/INFO]: [Not Secure] <Sam_mtzrss> esta en modo facil
-[00:55:22] [Server thread/INFO]: Sam_mtzrss issued server command: /difficulty normal
-[00:55:22] [Server thread/INFO]: [Sam_mtzrss: The difficulty has been set to Normal]
-[00:55:24] [Async Chat Thread - #0/INFO]: [Not Secure] <yaizi_ta> JAJAJAAJJAJA
-[00:55:30] [Async Chat Thread - #1/INFO]: [Not Secure] <Sam_mtzrss> con razon nadie se muere
-[00:56:14] [Server thread/INFO]: yaizi_ta has made the advancement [Acquire Hardware]
-[00:56:21] [Server thread/INFO]: yaizi_ta has made the advancement [Isn't It Iron Pick]
-[00:56:21] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Spectator Mode]
-[00:56:26] [Server thread/INFO]: Sam_mtzrss issued server command: /tp osonerd
-[00:56:26] [Server thread/INFO]: [Sam_mtzrss: Teleported Sam_mtzrss to osonerd]
-[00:56:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Sam_mtzrss> donde estas osito
-[00:56:50] [Server thread/INFO]: Sam_mtzrss issued server command: /tp yaizi_ta
-[00:56:50] [Server thread/INFO]: [Sam_mtzrss: Teleported Sam_mtzrss to yaizi_ta]
-[00:56:56] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Survival Mode]
-[00:57:17] [Async Chat Thread - #2/INFO]: [Not Secure] <osonerd> en la casa
-[00:57:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Sam_mtzrss> aya
-[00:57:37] [Async Chat Thread - #2/INFO]: [Not Secure] <osonerd> po qu{e no hablan?
-[00:57:38] [Server thread/INFO]: Villager Villager['Mason'/59, uuid='a6c23fb0-0f9c-484a-a574-b055af0ac7e5', l='ServerLevel[world]', x=-200.41, y=95.00, z=198.64, cpos=[-13, 12], tl=7875, v=true] died, message: 'Mason was slain by Zombie'
-[00:57:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Sam_mtzrss> mi mama literal esta lado mio
-[00:58:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Sam_mtzrss> no manches duplique un pico por un segundo
-[00:58:40] [Server thread/INFO]: Villager Villager['Villager'/41, uuid='f7ca3893-9980-4ef5-b5ee-767113d07c40', l='ServerLevel[world]', x=-219.30, y=109.00, z=223.70, cpos=[-14, 13], tl=9125, v=true] died, message: 'Villager was slain by Zombie'
-[00:58:47] [Async Chat Thread - #2/INFO]: [Not Secure] <yaizi_ta> eres hacker
-[00:59:01] [Async Chat Thread - #2/INFO]: [Not Secure] <Sam_mtzrss> e soy ese
-[01:01:16] [Server thread/INFO]: osonerd was slain by Zombie
-[01:03:42] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> avisan cuando se haga de día
-[01:03:54] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> elpepe
-[01:03:58] [Async Chat Thread - #4/INFO]: [Not Secure] <Sam_mtzrss> ando en cueba
-[01:04:07] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> ete sech
-[01:04:16] [Server thread/INFO]: Sam_mtzrss has made the advancement [Suit Up]
-[01:04:17] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> eso ilín
-[01:04:33] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> vaya tilín
-[01:04:47] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> a la mierda lín
-[01:04:54] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> wow tilín
-[01:05:00] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> jajajajaajajajaja
-[01:05:15] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> lol
-[01:05:19] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> lmao
-[01:05:23] [Async Chat Thread - #4/INFO]: [Not Secure] <osonerd> xd
-[01:10:25] [Server thread/INFO]: yaizi_ta has made the advancement [Suit Up]
-[01:12:26] [Server thread/INFO]: Sam_mtzrss issued server command: /title @a title MomentoCompanerismo
-[01:12:26] [Server thread/INFO]: [Sam_mtzrss: Showing new title for 3 players]
-[01:12:39] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> amigos que estan escuchando
-[01:12:46] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> enserio?
-[01:12:51] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> no amigo nada
-[01:12:53] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> AJJAJA, tu yaiza?
-[01:12:56] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> e
-[01:12:57] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> bueno
-[01:13:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> yo estoy escuchando musica de naruto AJHJAJAJ
-[01:13:25] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> AAA
-[01:13:27] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> decias demusica
-[01:13:30] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> siii
-[01:13:37] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> pense q decias del micro amigo
-[01:13:38] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> rock
-[01:13:40] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> AJJAJAJ
-[01:13:50] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> amiga que rockerta
-[01:13:55] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> siamigo
-[01:14:55] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> maldito
-[01:14:59] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> JAJAJAJA
-[01:15:19] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> amigo porqje me pegas
-[01:15:22] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> pense quee ramos amigos
-[01:15:38] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> perdon amiga me creo edgy
-[01:15:41] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> me gusta la sangre
-[01:15:46] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> calaverita calaverita
-[01:15:51] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> JAJAAJJ
-[01:16:11] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> nos vamos?
-[01:16:13] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> sii
-[01:16:21] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> vamos
-[01:16:28] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> aja de que se rie jose
-[01:16:35] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> JAJAJAAJ
-[01:16:43] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> Bien esquizo
-[01:16:47] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> ALV casi me detonan 2 creepers
-[01:16:51] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> AJJAJAJAJA
-[01:16:58] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> estas estoico?
-[01:17:08] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> vaya
-[01:17:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> maldito me humillas
-[01:17:26] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> JAJAJAJAAJ
-[01:17:46] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> que decias jose
-[01:18:17] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> AJAJAJAJAA
-[01:18:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> si
-[01:19:08] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> el granjerito
-[01:19:17] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> JAJAJAJJAJAJAJA
-[01:19:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> alv
-[01:19:22] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> creo que ese no existeamigo
-[01:19:24] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> para bailarnos
-[01:19:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> pls
-[01:19:29] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> o no
-[01:19:36] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> tu deja que nos baile yai
-[01:19:49] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> creo que tu solo quieres que te baile un hombreamigo
-[01:19:55] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> JAJAJA
-[01:20:34] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> oye que mierda
-[01:20:38] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> AJAKJAJJAJ
-[01:20:41] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> con que te estas atragantando
-[01:21:06] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> jJKDJASDKDJSDAKA
-[01:21:07] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> QPEDO
-[01:21:30] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> amigo porque lloras
-[01:21:31] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> audios +18
-[01:21:34] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> E SI JAJAJAJAJA
-[01:21:56] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> estate estoico
-[01:22:22] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> eu
-[01:22:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Sam_mtzrss> eu
-[01:22:33] [Async Chat Thread - #6/INFO]: [Not Secure] <yaizi_ta> creo que noamigo
-[01:22:35] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> JAJAJAJAJAJJA
-[01:22:40] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> samuel si
-[01:22:40] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> mejor haz el gogogo
-[01:22:44] [Async Chat Thread - #7/INFO]: [Not Secure] <yaizi_ta> o no?
-[01:23:15] [Async Chat Thread - #7/INFO]: [Not Secure] <Sam_mtzrss> JAJAJA
-[01:25:09] [Async Chat Thread - #8/INFO]: [Not Secure] <Sam_mtzrss> va
-[01:25:22] [Server thread/INFO]: Sam_mtzrss issued server command: /title @a title 1
-[01:25:30] [Server thread/INFO]: Sam_mtzrss issued server command: /title @a title "1"
-[01:25:30] [Server thread/INFO]: [Sam_mtzrss: Showing new title for 3 players]
-[01:25:34] [Server thread/INFO]: Sam_mtzrss issued server command: /title @a title "2"
-[01:25:34] [Server thread/INFO]: [Sam_mtzrss: Showing new title for 3 players]
-[01:25:43] [Server thread/INFO]: Sam_mtzrss issued server command: /title @a title "3"
-[01:25:43] [Server thread/INFO]: [Sam_mtzrss: Showing new title for 3 players]
-[01:25:48] [Server thread/INFO]: osonerd was slain by Sam_mtzrss
-[01:26:00] [Server thread/INFO]: Sam_mtzrss issued server command: /title @a title "WIN SAM_MTZRSS"
-[01:26:00] [Server thread/INFO]: [Sam_mtzrss: Showing new title for 3 players]
-[01:26:00] [Async Chat Thread - #8/INFO]: [Not Secure] <yaizi_ta> ey maldita argentina
-[01:26:44] [Server thread/INFO]: osonerd was slain by yaizi_ta
-[01:26:47] [Async Chat Thread - #8/INFO]: [Not Secure] <Sam_mtzrss> XD
-[01:26:55] [Async Chat Thread - #8/INFO]: [Not Secure] <yaizi_ta> JAAJJAAAJJA
-[01:27:08] [Async Chat Thread - #8/INFO]: [Not Secure] <Sam_mtzrss> ya estas muerto
-[01:27:08] [Async Chat Thread - #8/INFO]: [Not Secure] <yaizi_ta> amigo no digaeso
-[01:27:32] [Async Chat Thread - #8/INFO]: [Not Secure] <Sam_mtzrss> que decias
-[01:27:36] [Async Chat Thread - #8/INFO]: [Not Secure] <Sam_mtzrss> de argentina
-[01:27:50] [Async Chat Thread - #8/INFO]: [Not Secure] <Sam_mtzrss> nop
-[01:27:57] [Async Chat Thread - #8/INFO]: [Not Secure] <Sam_mtzrss> no
-[01:28:00] [Async Chat Thread - #8/INFO]: [Not Secure] <yaizi_ta> erayo
-[01:29:15] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> yai
-[01:29:19] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> mande
-[01:29:28] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> vez alguna diferencia de este server a los servers de aternos?
-[01:29:43] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> noamigo
-[01:29:49] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> la flechita de abajo al menos
-[01:29:50] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> pero
-[01:29:54] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> ese esp or la actualizacion
-[01:29:55] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> ?
-[01:30:04] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> o es del server
-[01:30:05] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> ah eso si es la actualizacion
-[01:30:05] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> ola
-[01:30:08] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> si
-[01:30:48] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> de argetina y yaiza
-[01:31:22] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> como??
-[01:31:26] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> sete trabo al ultimo
-[01:31:31] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> JKSDASDKDSJAD
-[01:31:35] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> si
-[01:31:37] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> que si fue tu novia dice
-[01:31:44] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> que dijo
-[01:31:55] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> esq
-[01:31:56] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> lavieja
-[01:32:00] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> primero faltaba mucho vdd
-[01:32:04] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> y un dia
-[01:32:17] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> medijo de q nooo es que tu puedes ser candidata a beca
-[01:32:21] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> y ahi si me cayo bien
-[01:32:25] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> pq dijo q me iba a ayudar
-[01:32:27] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> pero
-[01:32:30] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> acabando el semestre
-[01:32:34] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> tenia todo con 100
-[01:32:37] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> y puntos extras
-[01:32:40] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> mepuso
-[01:32:42] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> 95
-[01:32:44] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> y a todos 100
-[01:32:52] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> me dio ganas de matarla
-[01:32:54] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> JAJAJAJA
-[01:33:00] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> era mentira sobre lo de candidata
-[01:33:01] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> JAAAKAJAJKAJKAJK
-[01:33:05] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> alv
-[01:33:05] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> lit
-[01:33:07] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> JAAJAAJAJJAJAJA
-[01:33:08] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> VTLV
-[01:33:22] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> JAJAJAJJAJAJ
-[01:33:25] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> nollores jose
-[01:33:55] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> es que me arruino el promedio
-[01:34:09] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> es muy cierto amgio
-[01:34:47] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> quepaso?
-[01:35:07] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> nose
-[01:35:08] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> JAJAJAJAJAJ
-[01:35:13] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> esq no entiendo lapalabra
-[01:35:21] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> eskribela
-[01:35:24] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> :(
-[01:35:36] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> que es un amgio
-[01:35:41] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> ?
-[01:35:49] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzzzzz
-[01:35:50] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> un amigo muy especial
-[01:35:50] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzz
-[01:35:51] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzzzzz
-[01:35:53] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzzzzzzz
-[01:35:54] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzzzzzzzzzzzz
-[01:35:56] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzzzzzz
-[01:35:57] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzzzzzz
-[01:35:59] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzz
-[01:35:59] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:35:59] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:35:59] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:00] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:00] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:00] [Async Chat Thread - #10/INFO]: [Not Secure] <osonerd> z
-[01:36:00] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:01] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:01] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:01] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:01] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:02] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:02] [Async Chat Thread - #11/INFO]: [Not Secure] <osonerd> z
-[01:36:02] [Server thread/INFO]: osonerd lost connection: Kicked for spamming
-[01:36:02] [Server thread/INFO]: osonerd left the game
-[01:36:14] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> JJAJAJJAJAAJA se desconectaba
-[01:36:15] [User Authenticator #1/INFO]: UUID of player osonerd is c7aa2660-ff0e-3035-bdeb-a3a94002eb66
-[01:36:15] [Server thread/INFO]: osonerd joined the game
-[01:36:15] [Server thread/INFO]: osonerd[/127.0.0.1:39844] logged in with entity id 7602 at ([world]-234.5, 105.5625, 224.5)
-[01:36:26] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> un amigo es alguien que no sea yaiza
-[01:36:30] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> ok
-[01:36:31] [Server thread/INFO]: yaizi_ta lost connection: Disconnected
-[01:36:31] [Server thread/INFO]: yaizi_ta left the game
-[01:37:09] [User Authenticator #1/INFO]: UUID of player yaizi_ta is d15d8200-776c-32c7-affe-c93c97071f63
-[01:37:10] [Server thread/INFO]: yaizi_ta joined the game
-[01:37:10] [Server thread/INFO]: yaizi_ta[/127.0.0.1:50254] logged in with entity id 7678 at ([world]-209.4516486054654, 115.0, 263.30000001192093)
-[01:37:20] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> JAJAJAJJAJA
-[01:37:37] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> que dice
-[01:37:58] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> eu
-[01:38:11] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> amigos creo que me voy a salir del sever
-[01:38:17] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> no
-[01:38:25] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> como q se esta poniendoraro
-[01:38:31] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> JAJAJAJA
-[01:38:32] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> que cosa
-[01:38:42] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> jose se esta poniendo raro o el server?
-[01:38:46] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> jose
-[01:38:49] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> JAJAJAJ
-[01:39:04] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> creo que no amigo
-[01:39:06] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> que un virus dice
-[01:39:16] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> el virus eres tu va
-[01:39:49] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> alv yaiza te veo trabada
-[01:39:56] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> yo te veo trabadoati
-[01:40:12] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> JAJAJAJAJA
-[01:40:54] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> jose
-[01:41:03] [Server thread/INFO]: osonerd has made the advancement [Suit Up]
-[01:41:48] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> para que ya no estes desnudo
-[01:42:05] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> a ya
-[01:42:26] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> aumenta la produccion
-[01:42:36] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> desde siempre w
-[01:42:42] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> hasta en el cesped
-[01:42:44] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> si siempre
-[01:42:47] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> vdd que si yai
-[01:42:56] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> si
-[01:43:18] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> no
-[01:43:22] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> no
-[01:43:41] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> eres el cuerdo entre los locos vdd
-[01:44:08] [Async Chat Thread - #10/INFO]: [Not Secure] <Sam_mtzrss> salte
-[01:44:18] [Async Chat Thread - #11/INFO]: [Not Secure] <yaizi_ta> ok jose ok
-[01:44:19] [Server thread/INFO]: yaizi_ta lost connection: Disconnected
-[01:44:19] [Server thread/INFO]: yaizi_ta left the game
-[01:44:27] [Async Chat Thread - #11/INFO]: [Not Secure] <Sam_mtzrss> AJJAJA
-[01:44:30] [Server thread/INFO]: Sam_mtzrss has made the advancement [Not Today, Thank You]
-[01:44:33] [User Authenticator #2/INFO]: UUID of player yaizi_ta is d15d8200-776c-32c7-affe-c93c97071f63
-[01:44:34] [Server thread/INFO]: yaizi_ta joined the game
-[01:44:34] [Server thread/INFO]: yaizi_ta[/127.0.0.1:40416] logged in with entity id 8707 at ([world]-207.48750001192093, 115.0, 263.69999998807907)
-[01:44:36] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> ola
-[01:44:37] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> si
-[01:44:45] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> JAJAAJAA
-[01:44:50] [Async Chat Thread - #10/INFO]: [Not Secure] <yaizi_ta> te perdono amigo
-[01:46:17] [Async Chat Thread - #12/INFO]: [Not Secure] <Sam_mtzrss> luces intermitentes
-[01:46:18] [Async Chat Thread - #12/INFO]: [Not Secure] <Sam_mtzrss> luces intermitentes
-[01:46:43] [Async Chat Thread - #12/INFO]: [Not Secure] <Sam_mtzrss> no has visto el cover de español de esa musica jAJAJJA?
-[01:48:19] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> mande
-[01:48:22] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> amigo
-[01:48:24] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> y s
-[01:48:25] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> i
-[01:48:26] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> mejor
-[01:48:28] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> ledices
-[01:48:29] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> a
-[01:48:30] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> samuel
-[01:48:30] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> q
-[01:48:31] [Async Chat Thread - #14/INFO]: [Not Secure] <yaizi_ta> l
-[01:48:32] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> haga
-[01:48:33] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> pq
-[01:48:33] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> yo
-[01:48:33] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> ya
-[01:48:34] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> estoy
-[01:48:36] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> acostada
-[01:48:40] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> desde
-[01:48:42] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> hace rato
-[01:48:44] [Async Chat Thread - #15/INFO]: [Not Secure] <Sam_mtzrss> mejor dile a nadie
-[01:48:47] [Async Chat Thread - #15/INFO]: [Not Secure] <yaizi_ta> JAJAJAAJAJA
-[01:49:01] [Async Chat Thread - #15/INFO]: [Not Secure] <Sam_mtzrss> JAJA
-[01:49:23] [Server thread/INFO]: osonerd has made the advancement [A Seedy Place]
-[01:50:29] [Async Chat Thread - #16/INFO]: [Not Secure] <Sam_mtzrss> peren
-[01:50:34] [Async Chat Thread - #16/INFO]: [Not Secure] <Sam_mtzrss> dejen a moler frijoles
-[01:50:37] [Async Chat Thread - #16/INFO]: [Not Secure] <Sam_mtzrss> creo JAJAJA
-[01:50:42] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> okey
-[01:51:37] [Server thread/INFO]: osonerd was blown up by Creeper
-[01:51:41] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> la que ke?
-[01:51:43] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> AJAJAAJAJAJ
-[01:52:01] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> okey
-[01:52:06] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> jose
-[01:52:11] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> como q van a haber mashoras de ingles?
-[01:52:34] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> aaaaaaaaaaaa
-[01:52:42] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> QUE
-[01:52:50] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> cuantas llevamos en primero?
-[01:53:18] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> horas o materias?
-[01:53:25] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> kkkkkkkkkkkkkkkkkkkkkkkkkkkkkke
-[01:53:29] [Async Chat Thread - #16/INFO]: [Not Secure] <yaizi_ta> deja checo
-[01:54:41] [Async Chat Thread - #18/INFO]: [Not Secure] <yaizi_ta> siempre han sido 10
-[01:54:47] [Async Chat Thread - #18/INFO]: [Not Secure] <yaizi_ta> amgios ya volvio samuel asi qme voy
-[01:54:53] [Async Chat Thread - #18/INFO]: [Not Secure] <yaizi_ta> pq me tiene harta
-[01:56:55] [Server thread/INFO]: Sam_mtzrss has made the advancement [Best Friends Forever]
-[01:58:22] [Async Chat Thread - #20/INFO]: [Not Secure] <yaizi_ta> when eres samuel: hola soy homosexual
-[02:04:10] [Async Chat Thread - #22/INFO]: [Not Secure] <osonerd> Dije:pqara conocer los intereses de mis amigos, además era broma, sí lo tengo instalado
-[02:04:30] [Async Chat Thread - #22/INFO]: [Not Secure] <yaizi_ta> yojuego ndms
-[02:04:31] [Async Chat Thread - #23/INFO]: [Not Secure] <yaizi_ta> deq
-[02:04:51] [Async Chat Thread - #23/INFO]: [Not Secure] <yaizi_ta> puros fnf de robloxs, doors, uno q se llama 3008 y ya
-[02:06:34] [Async Chat Thread - #24/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzzzzzzzzzzzzzzzz
-[02:06:36] [Async Chat Thread - #24/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzzzzz
-[02:06:37] [Async Chat Thread - #24/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzzzzzz
-[02:06:38] [Async Chat Thread - #24/INFO]: [Not Secure] <osonerd> zzzzzzzzzzzzz
-[02:06:39] [Async Chat Thread - #24/INFO]: [Not Secure] <osonerd> z
-[02:06:39] [Async Chat Thread - #24/INFO]: [Not Secure] <osonerd> z
-[02:06:40] [Async Chat Thread - #25/INFO]: [Not Secure] <osonerd> zz
-[02:06:40] [Async Chat Thread - #25/INFO]: [Not Secure] <osonerd> z
-[02:06:40] [Async Chat Thread - #25/INFO]: [Not Secure] <osonerd> z
-[02:06:41] [Async Chat Thread - #25/INFO]: [Not Secure] <osonerd> z
-[02:07:07] [Server thread/INFO]: yaizi_ta has made the advancement [Not Today, Thank You]
-[02:08:31] [Async Chat Thread - #27/INFO]: [Not Secure] <yaizi_ta> yo iba a elegir laprimera
-[02:12:34] [Server thread/INFO]: yaizi_ta has made the advancement [The Parrots and the Bats]
-[02:14:22] [Server thread/INFO]: Sam_mtzrss has made the advancement [Hot Stuff]
-[02:17:26] [Async Chat Thread - #28/INFO]: [Not Secure] <osonerd> .222-110,229
-[02:17:30] [Server thread/INFO]: yaizi_ta has made the advancement [Best Friends Forever]
-[02:18:30] [Server thread/INFO]: Sam_mtzrss has made the advancement [We Need to Go Deeper]
-[02:21:22] [Server thread/WARN]: Horse (vehicle of Sam_mtzrss) moved wrongly! 0.3838174051441263
-[02:21:28] [Async Chat Thread - #30/INFO]: [Not Secure] <osonerd> ZZZZZZZZZZZZZZZZ
-[02:21:29] [Async Chat Thread - #30/INFO]: [Not Secure] <osonerd> Z
-[02:21:29] [Async Chat Thread - #30/INFO]: [Not Secure] <osonerd> Z
-[02:21:29] [Async Chat Thread - #30/INFO]: [Not Secure] <osonerd> Z
-[02:21:30] [Async Chat Thread - #30/INFO]: [Not Secure] <osonerd> ZZ
-[02:21:30] [Async Chat Thread - #31/INFO]: [Not Secure] <osonerd> Z
-[02:21:33] [Async Chat Thread - #30/INFO]: [Not Secure] <osonerd> ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-[02:21:38] [Async Chat Thread - #30/INFO]: [Not Secure] <osonerd> ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-[02:24:06] [Server thread/INFO]: yaizi_ta was blown up by Creeper
-[02:24:20] [Async Chat Thread - #32/INFO]: [Not Secure] <osonerd> ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-[02:25:58] [Server thread/INFO]: Sam_mtzrss has completed the challenge [Return to Sender]
-[02:26:40] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> amigos tengo el nuevo disco
-[02:26:43] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> hay que escucharlo
-[02:26:46] [Async Chat Thread - #34/INFO]: [Not Secure] <yaizi_ta> siamigo
-[02:27:03] [Async Chat Thread - #34/INFO]: [Not Secure] <yaizi_ta> samuel estas cerca tu de portal?
-[02:27:11] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> no
-[02:27:17] [Async Chat Thread - #34/INFO]: [Not Secure] <yaizi_ta> okey amigo gracias
-[02:27:25] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> me quede atrapado
-[02:27:41] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> esq lo hice para volver rapido a casa
-[02:27:58] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> si
-[02:28:22] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> quiero ir a casa pero me fui al lado contrario
-[02:28:27] [Async Chat Thread - #34/INFO]: [Not Secure] <Sam_mtzrss> estoy mas lejos de casa JAJAJA
-[02:31:09] [Async Chat Thread - #36/INFO]: [Not Secure] <yaizi_ta> amigosvoi a hacer algo
-[02:31:12] [Async Chat Thread - #37/INFO]: [Not Secure] <yaizi_ta> capaz en un ratovuelvo
-[02:31:20] [Async Chat Thread - #37/INFO]: [Not Secure] <yaizi_ta> ysi no es pq fuiamimir
-[02:31:20] [Async Chat Thread - #37/INFO]: [Not Secure] <Sam_mtzrss> va
-[02:31:22] [Async Chat Thread - #37/INFO]: [Not Secure] <yaizi_ta> baii
-[02:31:29] [Async Chat Thread - #37/INFO]: [Not Secure] <yaizi_ta> ciberabrazo
-[02:31:39] [Server thread/INFO]: yaizi_ta lost connection: Disconnected
-[02:31:39] [Server thread/INFO]: yaizi_ta left the game
-[02:38:27] [Async Chat Thread - #38/INFO]: [Not Secure] <Sam_mtzrss> oye jose
-[02:38:31] [Async Chat Thread - #38/INFO]: [Not Secure] <Sam_mtzrss> puedes hacer
-[02:38:43] [Async Chat Thread - #38/INFO]: [Not Secure] <Sam_mtzrss> un portal del nether en casa?
-[02:38:46] [Async Chat Thread - #38/INFO]: [Not Secure] <Sam_mtzrss> me quede atrapado
-[02:39:07] [Async Chat Thread - #38/INFO]: [Not Secure] <Sam_mtzrss> hay diamante en mi casa para la obsidiana
-[02:40:14] [Async Chat Thread - #40/INFO]: [Not Secure] <Sam_mtzrss> si?
+[21:38:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[21:38:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) for Minecraft 1.21.6
+[21:38:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:38:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/InteractionVisualizer-1.18.14.0 (1).jar'...
+[21:39:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/InteractionVisualizer-1.18.14.0 (1).jar' in 2406ms.
+[21:39:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[21:39:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Geyser-Spigot (2.7.2-SNAPSHOT), GraveStonesPlus (1.8.1), InteractionVisualizer (1.18.14.0), ViaVersion (5.4.1-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[21:39:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:39:09] [ServerMain/INFO]: Loaded 1407 recipes
+[21:39:09] [ServerMain/INFO]: Loaded 1520 advancements
+[21:39:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:39:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 541.3ms
+[21:39:09] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[21:39:09] [Server thread/INFO]: Loading properties
+[21:39:09] [Server thread/INFO]: This server is running Paper version 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) (Implementing API version 1.21.6-R0.1-SNAPSHOT)
+[21:39:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:39:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:39:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:39:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:39:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:39:11] [Server thread/INFO]: Default game type: SURVIVAL
+[21:39:11] [Server thread/INFO]: Generating keypair
+[21:39:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:39:11] [Server thread/INFO]: Using epoll channel type
+[21:39:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:39:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:39:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
+[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.pom
+[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.pom
+[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/ow2/1.5/ow2-1.5.pom
+[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.pom
+[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.pom
+[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.pom
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.pom
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[21:39:13] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:39:14] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:39:14] [Server thread/INFO]: [floodgate] Took 698ms to boot Floodgate
+[21:39:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1-SNAPSHOT
+[21:39:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[21:39:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:39:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:39:15] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.8.1
+[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.2-SNAPSHOT
+[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:39:15] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.14.0
+[21:39:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:39:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:39:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:39:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:39:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:39:15] [Server thread/INFO]: Preparing level "world"
+[21:39:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:39:16] [Server thread/INFO]: Preparing spawn area: 0%
+[21:39:16] [Server thread/INFO]: Preparing spawn area: 42%
+[21:39:16] [Server thread/INFO]: Time elapsed: 554 ms
+[21:39:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:39:17] [Server thread/INFO]: Preparing spawn area: 0%
+[21:39:17] [Server thread/INFO]: Preparing spawn area: 22%
+[21:39:17] [Server thread/INFO]: Time elapsed: 570 ms
+[21:39:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:39:17] [Server thread/INFO]: Preparing spawn area: 0%
+[21:39:17] [Server thread/INFO]: Time elapsed: 123 ms
+[21:39:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:39:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1-SNAPSHOT
+[21:39:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.6 (771)
+[21:39:18] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[21:39:18] [Server thread/WARN]: [ViaVersion] ViaVersion only supports newer client versions. Use ViaBackwards to allow older versions (ViaRewind for 1.7/1.8) to join.
+[21:39:18] [Server thread/WARN]: [ViaVersion] Get setup help at https://viaversion.com/setup or download ViaBackwards/ViaRewind directly at https://ci.viaversion.com/
+[21:39:18] [Server thread/WARN]: [ViaVersion] Need more help? Join our Discord at https://viaversion.com/discord
+[21:39:18] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.8.1
+[21:39:18] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
+[21:39:18] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.2-SNAPSHOT
+[21:39:18] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.14.0
+[21:39:18] [Server thread/INFO]: [InteractionVisualizer] LightAPI (Fork) is recommended to be installed on servers with Minecraft version 1.16.5 or below!
+[21:39:21] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
+[21:39:21] [Server thread/ERROR]: Error occurred while enabling InteractionVisualizer v1.18.14.0 (Is it up to date?)
+java.lang.RuntimeException: No NMSWrapper implementation for UNSUPPORTED version UNSUPPORTED
+	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.nms.NMS.getInstance(NMS.java:45) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
+	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.debug.Debug.<init>(Debug.java:72) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
+	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.managers.TaskManager.setup(TaskManager.java:171) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
+	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.InteractionVisualizer.onEnable(InteractionVisualizer.java:210) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.6-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.6-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:653) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.loohp.interactionvisualizer.nms.UNSUPPORTED
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21.6-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21.6-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.forName(AbstractDefaultRulesReflectionProxy.java:68) ~[reflection-rewriter-runtime-0.0.3.jar:?]
+	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
+	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.nms.NMS.getInstance(NMS.java:37) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
+	... 15 more
+[21:39:21] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.14.0
+[21:39:21] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[21:39:21] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[21:39:22] [Server thread/INFO]: [spark] Starting background profiler...
+[21:39:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:39:22] [Server thread/INFO]: [Geyser-Spigot] 
+[21:39:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.2-b862 (git-master-00ceaa9)
+[21:39:22] [Server thread/INFO]: [Geyser-Spigot] 
+[21:39:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:39:27] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[21:39:27] [Server thread/INFO]: [Geyser-Spigot] Done (4.79s)! Run /geyser help for help!
+[21:39:27] [Server thread/INFO]: Done preparing level "world" (11.917s)
+[21:39:27] [Server thread/INFO]: Running delayed init tasks
+[21:39:27] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:39:27] [Server thread/WARN]: [Geyser-Spigot] You are using an outdated version of ViaVersion; please download the newest version from https://ci.viaversion.com/job/ViaVersion/
+[21:39:27] [Server thread/INFO]: Done (29.578s)! For help, type "help"
+[21:39:28] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[21:39:28] [Craft Scheduler Thread - 5 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus is up to date! Version: 1.8.1
+[21:40:18] [pool-25-thread-1/WARN]: [GraveStonesPlus] Detected a month change, but current day is not near end of a month, ignoring month change, 24
+[21:40:18] [pool-25-thread-1/INFO]: [GraveStonesPlus] Detected week changed, processing...
+[21:40:18] [pool-25-thread-1/INFO]: [GraveStonesPlus] Time change event: WEEK, Fake: false
+[21:40:18] [pool-25-thread-1/INFO]: [GraveStonesPlus] Finished processing week changes
+[21:40:23] [pool-25-thread-1/INFO]: [GraveStonesPlus] Detected day changed, processing...
+[21:40:23] [pool-25-thread-1/INFO]: [GraveStonesPlus] Time change event: DAY, Fake: false
+[21:40:23] [pool-25-thread-1/INFO]: [GraveStonesPlus] Finished processing day changes
+[21:42:21] [User Authenticator #0/INFO]: UUID of player Sam_mtzrss is dfcd9200-0591-34f3-ba71-cfcd08c66845
+[21:42:22] [Server thread/INFO]: Sam_mtzrss joined the game
+[21:42:22] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:45920] logged in with entity id 12 at ([world_nether]71.13186543099556, 61.0, 236.624801870572)
