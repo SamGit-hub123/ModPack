@@ -154,3 +154,8 @@ Caused by: java.lang.ClassNotFoundException: com.loohp.interactionvisualizer.nms
 [22:44:57] [Server thread/INFO]: Sam_mtzrss has completed the challenge [Hot Tourist Destinations]
 [22:55:22] [Server thread/INFO]: Sam_mtzrss has made the advancement [Those Were the Days]
 [22:58:49] [Server thread/INFO]: Sam_mtzrss has made the advancement [War Pigs]
+[23:04:27] [Server thread/INFO]: Sam_mtzrss lost connection: Disconnected
+[23:04:27] [Server thread/INFO]: Sam_mtzrss left the game
+[23:07:06] [User Authenticator #1/INFO]: UUID of player Sam_mtzrss is dfcd9200-0591-34f3-ba71-cfcd08c66845
+[23:07:07] [Server thread/INFO]: Sam_mtzrss joined the game
+[23:07:07] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:40612] logged in with entity id 10052 at ([world_nether]-290.2382148899514, 36.0, 638.6999999880791)
