@@ -125,3 +125,7 @@ Caused by: java.lang.ClassNotFoundException: com.loohp.interactionvisualizer.nms
 [21:51:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0179f426-b302-4a11-a6a2-861e880594c5, mapped to Horse['Horse'/67, uuid='0179f426-b302-4a11-a6a2-861e880594c5', l='ServerLevel[world]', x=-470.89, y=69.00, z=1597.90, cpos=[-30, 99], tl=0, v=true], can't add Horse['Horse'/69, uuid='0179f426-b302-4a11-a6a2-861e880594c5', l='ServerLevel[world]', x=-457.96, y=68.00, z=1595.46, cpos=[-29, 99], tl=0, v=false]
 [21:51:54] [Server thread/INFO]: Sam_mtzrss joined the game
 [21:51:54] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:46304] logged in with entity id 40 at ([world]-457.95560072137954, 68.84375002384186, 1595.4583625910084)
+[22:54:38] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Spectator Mode]
+[22:55:52] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Survival Mode]
+[22:56:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+say<--[HERE]
