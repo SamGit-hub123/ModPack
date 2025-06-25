@@ -1,93 +1,81 @@
-[21:38:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[21:38:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) for Minecraft 1.21.6
-[21:38:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:38:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/InteractionVisualizer-1.18.14.0 (1).jar'...
-[21:39:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/InteractionVisualizer-1.18.14.0 (1).jar' in 2406ms.
-[21:39:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[21:39:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - Geyser-Spigot (2.7.2-SNAPSHOT), GraveStonesPlus (1.8.1), InteractionVisualizer (1.18.14.0), ViaVersion (5.4.1-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[21:39:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:39:09] [ServerMain/INFO]: Loaded 1407 recipes
-[21:39:09] [ServerMain/INFO]: Loaded 1520 advancements
-[21:39:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:39:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 541.3ms
-[21:39:09] [Server thread/INFO]: Starting minecraft server version 1.21.6
-[21:39:09] [Server thread/INFO]: Loading properties
-[21:39:09] [Server thread/INFO]: This server is running Paper version 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) (Implementing API version 1.21.6-R0.1-SNAPSHOT)
-[21:39:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:39:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:39:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:39:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[21:39:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[21:39:11] [Server thread/INFO]: Default game type: SURVIVAL
-[21:39:11] [Server thread/INFO]: Generating keypair
-[21:39:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:39:11] [Server thread/INFO]: Using epoll channel type
-[21:39:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:39:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:39:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
-[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.pom
-[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.pom
-[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/ow2/1.5/ow2-1.5.pom
-[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.pom
-[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.pom
-[21:39:12] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.pom
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.pom
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[21:39:13] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[21:39:13] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[21:39:13] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[21:39:14] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[21:39:14] [Server thread/INFO]: [floodgate] Took 698ms to boot Floodgate
-[21:39:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1-SNAPSHOT
-[21:39:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[21:39:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[21:39:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[21:39:15] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.8.1
-[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.2-SNAPSHOT
-[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[21:39:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[21:39:15] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.14.0
-[21:39:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:39:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:39:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:39:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:39:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:39:15] [Server thread/INFO]: Preparing level "world"
-[21:39:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:39:16] [Server thread/INFO]: Preparing spawn area: 0%
-[21:39:16] [Server thread/INFO]: Preparing spawn area: 42%
-[21:39:16] [Server thread/INFO]: Time elapsed: 554 ms
-[21:39:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:39:17] [Server thread/INFO]: Preparing spawn area: 0%
-[21:39:17] [Server thread/INFO]: Preparing spawn area: 22%
-[21:39:17] [Server thread/INFO]: Time elapsed: 570 ms
-[21:39:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:39:17] [Server thread/INFO]: Preparing spawn area: 0%
-[21:39:17] [Server thread/INFO]: Time elapsed: 123 ms
-[21:39:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[21:39:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1-SNAPSHOT
-[21:39:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.6 (771)
-[21:39:18] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[21:39:18] [Server thread/WARN]: [ViaVersion] ViaVersion only supports newer client versions. Use ViaBackwards to allow older versions (ViaRewind for 1.7/1.8) to join.
-[21:39:18] [Server thread/WARN]: [ViaVersion] Get setup help at https://viaversion.com/setup or download ViaBackwards/ViaRewind directly at https://ci.viaversion.com/
-[21:39:18] [Server thread/WARN]: [ViaVersion] Need more help? Join our Discord at https://viaversion.com/discord
-[21:39:18] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.8.1
-[21:39:18] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
-[21:39:18] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.2-SNAPSHOT
-[21:39:18] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.14.0
-[21:39:18] [Server thread/INFO]: [InteractionVisualizer] LightAPI (Fork) is recommended to be installed on servers with Minecraft version 1.16.5 or below!
-[21:39:21] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
-[21:39:21] [Server thread/ERROR]: Error occurred while enabling InteractionVisualizer v1.18.14.0 (Is it up to date?)
+[21:51:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[21:51:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) for Minecraft 1.21.6
+[21:51:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:51:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[21:51:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - Geyser-Spigot (2.7.2-SNAPSHOT), GraveStonesPlus (1.8.1), InteractionVisualizer (1.18.14.0), ViaBackwards (5.4.0), ViaVersion (5.4.1-SNAPSHOT), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[21:51:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:51:25] [ServerMain/INFO]: Loaded 1407 recipes
+[21:51:25] [ServerMain/INFO]: Loaded 1520 advancements
+[21:51:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:51:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 596.0ms
+[21:51:26] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[21:51:26] [Server thread/INFO]: Loading properties
+[21:51:26] [Server thread/INFO]: This server is running Paper version 1.21.6-16-main@6a51c44 (2025-06-20T22:27:36Z) (Implementing API version 1.21.6-R0.1-SNAPSHOT)
+[21:51:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:51:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:51:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:51:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:51:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:51:28] [Server thread/INFO]: Default game type: SURVIVAL
+[21:51:28] [Server thread/INFO]: Generating keypair
+[21:51:28] [Server thread/INFO]: Starting Minecraft server on *:23167
+[21:51:28] [Server thread/INFO]: Using epoll channel type
+[21:51:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:51:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:51:28] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
+[21:51:29] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[21:51:29] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[21:51:29] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[21:51:29] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[21:51:29] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[21:51:29] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/ModPack/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[21:51:29] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1-SNAPSHOT
+[21:51:29] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[21:51:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:51:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:51:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:51:30] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:51:31] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:51:32] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:51:32] [Server thread/INFO]: [floodgate] Took 1,290ms to boot Floodgate
+[21:51:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.0
+[21:51:32] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.8.1
+[21:51:32] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.2-SNAPSHOT
+[21:51:33] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:51:33] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:51:33] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.14.0
+[21:51:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:51:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:51:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:51:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:51:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:51:33] [Server thread/INFO]: Preparing level "world"
+[21:51:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:51:35] [Server thread/INFO]: Preparing spawn area: 0%
+[21:51:35] [Server thread/INFO]: Preparing spawn area: 2%
+[21:51:36] [Server thread/INFO]: Preparing spawn area: 24%
+[21:51:36] [Server thread/INFO]: Preparing spawn area: 24%
+[21:51:36] [Server thread/INFO]: Time elapsed: 1602 ms
+[21:51:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:51:36] [Server thread/INFO]: Preparing spawn area: 0%
+[21:51:36] [Server thread/INFO]: Preparing spawn area: 4%
+[21:51:37] [Server thread/INFO]: Preparing spawn area: 26%
+[21:51:37] [Server thread/INFO]: Time elapsed: 1379 ms
+[21:51:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:51:37] [Server thread/INFO]: Preparing spawn area: 0%
+[21:51:37] [Server thread/INFO]: Time elapsed: 139 ms
+[21:51:37] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1-SNAPSHOT
+[21:51:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.6 (771)
+[21:51:37] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[21:51:38] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.0
+[21:51:38] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.8.1
+[21:51:39] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
+[21:51:39] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.2-SNAPSHOT
+[21:51:39] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.14.0
+[21:51:39] [Server thread/INFO]: [InteractionVisualizer] LightAPI (Fork) is recommended to be installed on servers with Minecraft version 1.16.5 or below!
+[21:51:44] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
+[21:51:44] [Server thread/ERROR]: Error occurred while enabling InteractionVisualizer v1.18.14.0 (Is it up to date?)
 java.lang.RuntimeException: No NMSWrapper implementation for UNSUPPORTED version UNSUPPORTED
 	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.nms.NMS.getInstance(NMS.java:45) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
 	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.debug.Debug.<init>(Debug.java:72) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
@@ -116,46 +104,24 @@ Caused by: java.lang.ClassNotFoundException: com.loohp.interactionvisualizer.nms
 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.forName(Unknown Source) ~[paper-1.21.6.jar:1.21.6-16-6a51c44]
 	at InteractionVisualizer-1.18.14.0 (1).jar/com.loohp.interactionvisualizer.nms.NMS.getInstance(NMS.java:37) ~[InteractionVisualizer-1.18.14.0 (1).jar:?]
 	... 15 more
-[21:39:21] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.14.0
-[21:39:21] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
-[21:39:21] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
-[21:39:22] [Server thread/INFO]: [spark] Starting background profiler...
-[21:39:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:39:22] [Server thread/INFO]: [Geyser-Spigot] 
-[21:39:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.2-b862 (git-master-00ceaa9)
-[21:39:22] [Server thread/INFO]: [Geyser-Spigot] 
-[21:39:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:39:27] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[21:39:27] [Server thread/INFO]: [Geyser-Spigot] Done (4.79s)! Run /geyser help for help!
-[21:39:27] [Server thread/INFO]: Done preparing level "world" (11.917s)
-[21:39:27] [Server thread/INFO]: Running delayed init tasks
-[21:39:27] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[21:39:27] [Server thread/WARN]: [Geyser-Spigot] You are using an outdated version of ViaVersion; please download the newest version from https://ci.viaversion.com/job/ViaVersion/
-[21:39:27] [Server thread/INFO]: Done (29.578s)! For help, type "help"
-[21:39:28] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[21:39:28] [Craft Scheduler Thread - 5 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus is up to date! Version: 1.8.1
-[21:40:18] [pool-25-thread-1/WARN]: [GraveStonesPlus] Detected a month change, but current day is not near end of a month, ignoring month change, 24
-[21:40:18] [pool-25-thread-1/INFO]: [GraveStonesPlus] Detected week changed, processing...
-[21:40:18] [pool-25-thread-1/INFO]: [GraveStonesPlus] Time change event: WEEK, Fake: false
-[21:40:18] [pool-25-thread-1/INFO]: [GraveStonesPlus] Finished processing week changes
-[21:40:23] [pool-25-thread-1/INFO]: [GraveStonesPlus] Detected day changed, processing...
-[21:40:23] [pool-25-thread-1/INFO]: [GraveStonesPlus] Time change event: DAY, Fake: false
-[21:40:23] [pool-25-thread-1/INFO]: [GraveStonesPlus] Finished processing day changes
-[21:42:21] [User Authenticator #0/INFO]: UUID of player Sam_mtzrss is dfcd9200-0591-34f3-ba71-cfcd08c66845
-[21:42:22] [Server thread/INFO]: Sam_mtzrss joined the game
-[21:42:22] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:45920] logged in with entity id 12 at ([world_nether]71.13186543099556, 61.0, 236.624801870572)
-[22:03:19] [Server thread/INFO]: Sam_mtzrss has made the advancement [A Terrible Fortress]
-[22:10:23] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Spectator Mode]
-[22:10:24] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Survival Mode]
-[22:10:54] [Server thread/INFO]: Sam_mtzrss has made the advancement [Oh Shiny]
-[22:11:08] [Server thread/INFO]: Sam_mtzrss has made the advancement [Ice Bucket Challenge]
-[22:12:58] [Server thread/INFO]: Sam_mtzrss has made the advancement [Who is Cutting Onions?]
-[22:36:36] [Server thread/INFO]: Sam_mtzrss has made the advancement [This Boat Has Legs]
-[22:44:57] [Server thread/INFO]: Sam_mtzrss has completed the challenge [Hot Tourist Destinations]
-[22:55:22] [Server thread/INFO]: Sam_mtzrss has made the advancement [Those Were the Days]
-[22:58:49] [Server thread/INFO]: Sam_mtzrss has made the advancement [War Pigs]
-[23:04:27] [Server thread/INFO]: Sam_mtzrss lost connection: Disconnected
-[23:04:27] [Server thread/INFO]: Sam_mtzrss left the game
-[23:07:06] [User Authenticator #1/INFO]: UUID of player Sam_mtzrss is dfcd9200-0591-34f3-ba71-cfcd08c66845
-[23:07:07] [Server thread/INFO]: Sam_mtzrss joined the game
-[23:07:07] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:40612] logged in with entity id 10052 at ([world_nether]-290.2382148899514, 36.0, 638.6999999880791)
+[21:51:44] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.14.0
+[21:51:44] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[21:51:44] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[21:51:44] [Server thread/INFO]: [spark] Starting background profiler...
+[21:51:46] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:51:46] [Server thread/INFO]: [Geyser-Spigot] 
+[21:51:46] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.2-b862 (git-master-00ceaa9)
+[21:51:46] [Server thread/INFO]: [Geyser-Spigot] 
+[21:51:46] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:51:51] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 23167
+[21:51:52] [Server thread/INFO]: [Geyser-Spigot] Done (5.819s)! Run /geyser help for help!
+[21:51:52] [Server thread/INFO]: Done preparing level "world" (18.365s)
+[21:51:52] [Server thread/INFO]: Running delayed init tasks
+[21:51:52] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:51:52] [User Authenticator #0/INFO]: UUID of player Sam_mtzrss is dfcd9200-0591-34f3-ba71-cfcd08c66845
+[21:51:52] [Server thread/INFO]: Done (42.818s)! For help, type "help"
+[21:51:52] [Craft Scheduler Thread - 1 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus is up to date! Version: 1.8.1
+[21:51:52] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[21:51:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0179f426-b302-4a11-a6a2-861e880594c5, mapped to Horse['Horse'/67, uuid='0179f426-b302-4a11-a6a2-861e880594c5', l='ServerLevel[world]', x=-470.89, y=69.00, z=1597.90, cpos=[-30, 99], tl=0, v=true], can't add Horse['Horse'/69, uuid='0179f426-b302-4a11-a6a2-861e880594c5', l='ServerLevel[world]', x=-457.96, y=68.00, z=1595.46, cpos=[-29, 99], tl=0, v=false]
+[21:51:54] [Server thread/INFO]: Sam_mtzrss joined the game
+[21:51:54] [Server thread/INFO]: Sam_mtzrss[/127.0.0.1:46304] logged in with entity id 40 at ([world]-457.95560072137954, 68.84375002384186, 1595.4583625910084)
