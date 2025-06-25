@@ -129,3 +129,5 @@ Caused by: java.lang.ClassNotFoundException: com.loohp.interactionvisualizer.nms
 [22:55:52] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Survival Mode]
 [22:56:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
 say<--[HERE]
+[23:35:52] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Spectator Mode]
+[23:35:56] [Server thread/INFO]: [Sam_mtzrss: Set own game mode to Survival Mode]
